@@ -1,0 +1,4 @@
+1	Jack	1	
+2	Tom	2	
+3	Lucy	3	12000	
+4	Ann	4	60	
