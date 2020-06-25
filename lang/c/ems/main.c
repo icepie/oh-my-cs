@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "function_declaration.h"
+#ifdef _WIN32
+#define CLEAR "cls"
+#else //In any other OS
+#define CLEAR "clear"
+#endif
 /*
 
 function_declaration.h
@@ -57,7 +62,7 @@ int main()
                 mod(emp,people_num,file_name);
                 break;
             case 6:
-                system("cls");
+                system(CLEAR);
                 menus();/**清屏后返回至主菜单**/
                 break;
             case 7:
