@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            "compilerPath": "C:/ProgramData/chocolatey/bin/gcc.exe",
+            "cStandard": "c18",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "gcc-x64",
+            "browse": {
+                "path": [
+                    "C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/include/"
+                ]
+            }
+        }
+    ],
+    "version": 4
+}

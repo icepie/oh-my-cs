@@ -408,13 +408,6 @@ int edit(int id)
             case SEX:
                 cout << ":";
                 cin >> Sex;
-                while (Sex != "男" && Sex != "女")
-                {
-                    cerr << endl
-                         << "错误:性别必须为“男”或“女”!" << endl;
-                    cout << ":";
-                    cin >> Sex;
-                }
                 break;
             case AGE:
                 cout << ":";
